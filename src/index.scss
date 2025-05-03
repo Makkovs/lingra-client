@@ -1,0 +1,22 @@
+@use "./variables.scss" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $main-bg-color;
+}
+
+@font-face {
+  font-family: "Kadwa";
+  src: url("../public/fonts/Kadwa-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Kadwa";
+  src: url("../public/fonts/Kadwa-Regular.ttf");
+  font-weight: 600;
+}
