@@ -1,0 +1,39 @@
+@use "../../variables.scss" as *;
+
+.header {
+  display: grid;
+  color: $font-color;
+  font-family: $font-family;
+  gap: 0px 0px;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 6fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  background: $second-bg-color;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 40px;
+  color: $font-color;
+  text-decoration: none;
+  grid-column-start: 2;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+  color: $font-color;
+  font-size: 20px;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button_icon {
+  width: 20px;
+  opacity: 0.8;
+  margin-right: 5px;
+}
